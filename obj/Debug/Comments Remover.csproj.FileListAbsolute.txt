@@ -1,0 +1,11 @@
+C:\Users\WorkNoteBook\source\repos\Comments Remover\bin\Debug\Comments Remover.exe.config
+C:\Users\WorkNoteBook\source\repos\Comments Remover\bin\Debug\Comments Remover.exe
+C:\Users\WorkNoteBook\source\repos\Comments Remover\bin\Debug\Comments Remover.pdb
+C:\Users\WorkNoteBook\source\repos\Comments Remover\obj\Debug\Comments Remover.csproj.AssemblyReference.cache
+C:\Users\WorkNoteBook\source\repos\Comments Remover\obj\Debug\Comments Remover.csproj.SuggestedBindingRedirects.cache
+C:\Users\WorkNoteBook\source\repos\Comments Remover\obj\Debug\Comments_Remover.MainForm.resources
+C:\Users\WorkNoteBook\source\repos\Comments Remover\obj\Debug\Comments_Remover.Properties.Resources.resources
+C:\Users\WorkNoteBook\source\repos\Comments Remover\obj\Debug\Comments Remover.csproj.GenerateResource.cache
+C:\Users\WorkNoteBook\source\repos\Comments Remover\obj\Debug\Comments Remover.csproj.CoreCompileInputs.cache
+C:\Users\WorkNoteBook\source\repos\Comments Remover\obj\Debug\Comments Remover.exe
+C:\Users\WorkNoteBook\source\repos\Comments Remover\obj\Debug\Comments Remover.pdb
