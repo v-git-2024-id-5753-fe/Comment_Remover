@@ -40,18 +40,10 @@ namespace Comments_Remover
 			{
 				string fileline = file_read.ReadLine();
 				string trim_fileline = fileline.Trim(' ', '\t');
-				if (remove_2_slash == true)
-				{
-					if (trim_fileline.Length >= 2)
-					{
-						if ((trim_fileline[0] == '/') &&
-							(trim_fileline[1] == '/'))
-						{
-							Console.WriteLine(DateTime.Now.ToString("HH:mm:ss") + " " + "Removed line: " + fileline);
-							continue;
-						}
-					}
-				}
+
+				// 2024.05.18 19:26. Moscow. Hostel. Rostokino. Sequence of if there is important.
+				// with remove_2_flash it could delete the line with /// while it is not checked
+				// it checks // and does not check another / and removes the line.
 				if (remove_3_slash == true)
 				{
 					if (trim_fileline.Length >= 3)
@@ -59,6 +51,18 @@ namespace Comments_Remover
 						if ((trim_fileline[0] == '/') &&
 							(trim_fileline[1] == '/') &&
 							(trim_fileline[2] == '/'))
+						{
+							Console.WriteLine(DateTime.Now.ToString("HH:mm:ss") + " " + "Removed line: " + fileline);
+							continue;
+						}
+					}
+				}
+				if (remove_2_slash == true)
+				{
+					if (trim_fileline.Length >= 2)
+					{
+						if ((trim_fileline[0] == '/') &&
+							(trim_fileline[1] == '/'))
 						{
 							Console.WriteLine(DateTime.Now.ToString("HH:mm:ss") + " " + "Removed line: " + fileline);
 							continue;
